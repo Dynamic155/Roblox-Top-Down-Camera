@@ -15,8 +15,8 @@ camera.CameraType = Enum.CameraType.Scriptable
 
 -- Camera Script:
 local function updateCamera()
-	local targetPosition = character.PrimaryPart.Position + Vector3.new(cameraOffsetX, cameraHeight, cameraOffsetZ)
-	tweenSerive:Create(camera, TweenInfo.new(0.1), {CFrame = CFrame.new(targetPosition, character.PrimaryPart.Position)}):Play()
+  local targetPosition = character.PrimaryPart.Position + Vector3.new(cameraOffsetX, cameraHeight, cameraOffsetZ)
+  tweenSerive:Create(camera, TweenInfo.new(0.1), {CFrame = CFrame.new(targetPosition, character.PrimaryPart.Position)}):Play()
 end
 
 runService.RenderStepped:Connect(updateCamera)
