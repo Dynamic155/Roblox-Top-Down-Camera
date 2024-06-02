@@ -16,5 +16,8 @@ local cameraOffsetX = 0
 local cameraOffsetZ = 0
 ```
 
+## Stuff to add:
+- Ability to make the camer follor the characters rotation.
+
 ## Contributing:
 If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
